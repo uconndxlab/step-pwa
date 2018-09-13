@@ -33,6 +33,16 @@ h3{
     box-shadow: inset 0 0 6px 0px #797878;
 }
 
+#step-form p{
+    font-size: 24px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+#step-form div{
+    margin-bottom: 100px;
+}
+
 /*#step-form input:focus{
     border-radius:10px;
     box-shadow: inset 0 0 6px 0px #3460c3;
