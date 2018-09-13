@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>UI Version 1</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<div class="form-container">
+	<form class="step-form">
+		<input id="name-input" type="text" placeholder="Instructor Name">
+		<button id="save-button" type="submit">Save »</button>
+		<button id="read-button" type="submit">Return »</button>
+
+		
+
+	</form>
+	<h3 id="name-output" class="hide notification"></h3>
+	<h3 id="saved-output" class="hide save notification">Saved! :D</h3>
+	</div>
+
+
+	<div id="log"></div>
+
+	<script src="js/main.js"></script>
+</body>
+</html>
+
+
+
+<form id="myquestions">
+  <p>
+    <label for="name">Your Name </label><input name="name" type="text" placeholder="First and Last, plz" id="name">
+  </p>
+  
+  
+   <p>
+    <span>Is this teacher great?</span> <br>
+    
+    <label for="yesGreat"><input id="yesGreat" type="radio" name="isGreat" value="yes"> Yes</label><br>
+    
+   <label for="noGreat"><input id="noGreat" type="radio" name="isGreat" value="no"> No</label><br>
+  </p>
+  
+  <button type="submit">
+  Save and Display
+  </button>
+</form>
+<br>
+<div id="log">
+
+</div>

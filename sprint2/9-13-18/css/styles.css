@@ -1,0 +1,77 @@
+h3{
+    font-family: sans-serif;
+    font-weight:400;
+}
+
+.form-container{
+    text-align:center;
+    margin:0 auto;
+    position:relative;
+    top:300px;
+}
+
+.step-form button{
+    background-color: #669abf;
+    color: #ffffff;
+    font-size: 18px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 15px 25px;
+    cursor: pointer;
+    cursor: pointer;
+}
+
+.step-form input{
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 0;
+    box-shadow: inset 0 0 6px 0px #797878;
+}
+
+.step-form input:focus{
+    border-radius:10px;
+    box-shadow: inset 0 0 6px 0px #3460c3;
+    outline:none;
+}
+
+.notification{
+    position: relative;
+    padding:10px;
+    width:20%;
+    margin:0 auto;
+    border-radius: 20px;
+    background-color: #ccc;
+    top:30px;
+    text-transform: capitalize;
+}
+
+.save{
+    background-color: #52c752;
+}
+
+.hide{
+    display:none;
+}
+
+@-webkit-keyframes showAnimation{
+    0%{opacity: 0;}
+    20%{opacity: 1;}
+    80%{opacity: 1;}
+    100%{opacity: 0;}
+}
+
+@keyframes showAnimation{
+    0%{opacity: 0;}
+    20%{opacity: 1;}
+    80%{opacity: 1;}
+    100%{opacity: 0;}
+}
+
+.animate{
+    -webkit-animation-name: showAnimation;
+            animation-name: showAnimation;
+    -webkit-animation-duration: 1.5s;
+            animation-duration: 1.5s;
+    opacity:0;
+}
