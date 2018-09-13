@@ -72,3 +72,24 @@ readButton.addEventListener("click", function(){
 		animate(nameOutput)
 	}, 1500);
 });
+
+
+
+let form = document.querySelector("#myquestions");
+let log = document.querySelector("#log");
+
+
+form.addEventListener("submit",function(e){
+	e.preventDefault();
+  
+	let results = {};
+  
+	let formData = new FormData(form);
+ 	
+	for(var pair of formData.entries()) {
+		results[pair[0]] = pair[1];
+  	}
+ 
+ 	log.innerHTML = JSON.stringify(results);
+ 	  
+});
