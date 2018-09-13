@@ -1,3 +1,7 @@
+*{
+    font-family: sans-serif;
+}
+
 h3{
     font-family: sans-serif;
     font-weight:400;
@@ -10,7 +14,7 @@ h3{
     top:300px;
 }
 
-.step-form button{
+#step-form button{
     background-color: #669abf;
     color: #ffffff;
     font-size: 18px;
@@ -21,19 +25,19 @@ h3{
     cursor: pointer;
 }
 
-.step-form input{
-    font-size: 18px;
-    padding: 15px;
-    border-radius: 10px;
+#step-form input{
+/*    font-size: 18px;
+    padding: 15px;*/
+    border-radius: 50px;
     border: 0;
     box-shadow: inset 0 0 6px 0px #797878;
 }
 
-.step-form input:focus{
+/*#step-form input:focus{
     border-radius:10px;
     box-shadow: inset 0 0 6px 0px #3460c3;
     outline:none;
-}
+}*/
 
 .notification{
     position: relative;
@@ -75,3 +79,29 @@ h3{
             animation-duration: 1.5s;
     opacity:0;
 }
+
+.radio{
+    height: 65px;
+    width: 65px;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    box-sizing: border-box;
+    margin:10px 30px;
+}
+
+.radio:checked{
+    border: 32.5px solid #aac6f1!important;
+    box-shadow: none!important;
+    transition: border-width .3s ease
+}
+
+label .radio-label{
+    font-size: 28px;
+    position: relative;
+    bottom: 32px;
+    left: -70px;
+    color: #989898;
+    z-index: -1;
+}
+
