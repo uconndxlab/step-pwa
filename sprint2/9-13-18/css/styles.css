@@ -151,3 +151,14 @@ label .radio-label{
     content: "Effective specific praise names the behavior and is contingent, genuine, and contextually/culturally appropriate.";
 }
 
+#log{
+    width: 40%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.agree{
+    position: relative;
+    bottom: 30px;
+}
+
