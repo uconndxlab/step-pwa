@@ -134,7 +134,7 @@ label .radio-label{
     display:none;
 }
 
-.more-info:focus:after{
+.more-info:active:after{
     opacity:1;
     display:initial;
 }
