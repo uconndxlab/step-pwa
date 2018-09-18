@@ -131,10 +131,12 @@ label .radio-label{
     transition: opacity .5s ease;
     line-height: 1.4;
     text-align: left;
+    display:none;
 }
 
 .more-info:focus:after{
     opacity:1;
+    display:initial;
 }
 
 #active-supervision.more-info:after{
