@@ -83,6 +83,10 @@
 
 let form = document.querySelector("#step-form");
 let log = document.querySelector("#log");
+let button1 = document.querySelector("#active-supervision"); 
+let button2 = document.querySelector("#opportunities");
+let button3 = document.querySelector("#praise");
+
 
 
 form.addEventListener("submit",function(e){
@@ -105,3 +109,27 @@ form.addEventListener("submit",function(e){
   
   
 });
+
+  button1.addEventListener("touchstart", function(){
+    this.focus();
+  });
+
+  button2.addEventListener("touchstart", function(){
+    this.focus();
+  });
+
+  button3.addEventListener("touchstart", function(){
+    this.focus();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
