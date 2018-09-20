@@ -162,3 +162,24 @@ label .radio-label{
     bottom: 30px;
 }
 
+.text-input{
+    padding: 15px 30px;
+    font-size: 20px;
+}
+
+.stack{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0 auto;
+}
+
+#time{
+    width: 15%;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+

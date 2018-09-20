@@ -7,9 +7,70 @@
 <body>
 	<div class="form-container">
 	<form id="step-form">
-		<!--<label for="name-input"><input name="instructor-name" id="name-input" type="text" placeholder="Instructor Name"></label>
-		<button id="save-button" type="submit">Save »</button>
+		<div id="top-part">
+			<div class="row" id="row1">
+				<span class="stack">
+					<label for="name-input">Educator Name</label><input name="instructor-name" id="name-input" class="text-input" type="text" placeholder="Educator">
+				</span>
+				<span class="stack">
+					<label for="observer-input">Observer Name</label><input name="observer-name" id="observer-input" class="text-input" type="text" placeholder="Observer">
+				</span>
+				<span class="stack">
+					<label for="date-input">Date</label><input name="date-input" id="date-input" class="text-input" type="date">
+				</span>
+			</div><!--row1-->
+			<div class="row" id="row2">
+				<span class="stack">
+					<label for="grade-input">Grade Level</label><input name="grade-level-input" id="grade-level-input" class="text-input" list="grade-levels">
+					<datalist id="grade-levels">
+						<option value="Pre-K">
+						<option value="Kindergarten">
+						<option value="1">	
+						<option value="2">
+						<option value="3">
+						<option value="4">
+						<option value="5">
+						<option value="6">
+						<option value="7">
+						<option value="8">
+						<option value="9">
+						<option value="10">
+						<option value="11">
+						<option value="12"/>	
+					</datalist>
+				</span>
+
+				<span class="stack">
+					<label for="content-area-input">Content Area</label><input name="content-area" id="content-area" class="text-input" type="text" placeholder="Content Area">
+				</span>
+				<span class="stack" id="time">
+					<label for="time-start-input">Time Start</label><input name="time-start" id="time-start" class="text-input" type="time">
+				</span>
+				<span class="stack" id="time">
+					<label for="time-start-input">Time End</label><input name="time-start" id="time-start" class="text-input" type="time">
+				</span>
+			</div><!--row2-->
+			<div class="row" id="row3">
+				<span class="stack">
+					<label for="group-size-input">Group Size</label><input name="group-size-input" id="grade-size-input" class="text-input" list="group-size">
+					<datalist id="group-size">
+						<option value="whole class">
+						<option value="small group">
+						<option value="1:1 (do not use)"/>	
+					</datalist>
+				</span>
+				<span class="stack">
+					<label for="activity-input">Instructional Activity</label><textarea name="instructional-activity" id="instructional-activity" class="text-input" type="textarea" placeholder="Description" style="width:200px; height: 80px"></textarea>
+				</span>
+				<span class="stack">
+					<label for="setting-notes-input">Setting Notes</label><textarea name="setting-notes" id="setting-notes" class="text-input" type="textarea" placeholder="Notes" style="width:200px; height: 80px"></textarea>
+				</span>
+			</div>
+
+
+		<!--<button id="save-button" type="submit">Save »</button>
 		<button id="read-button" type="submit">Return »</button>-->
+		</div><!--the top part-->
 
 		<div>
 			<p>1. The educator effectively engaged in <b>active supervision</b> of students in the classroom (i.e., moving, scanning, interacting).<button type="button" id="active-supervision" class="more-info">?</button></p>
