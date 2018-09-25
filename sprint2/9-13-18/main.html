@@ -71,8 +71,8 @@
 		<!--<button id="save-button" type="submit">Save »</button>
 		<button id="read-button" type="submit">Return »</button>-->
 		</div><!--the top part-->
-
-		<div>
+		<h2>CMOT Progress Monitoring Items</h2>
+		<div class="question">
 			<p>1. The educator effectively engaged in <b>active supervision</b> of students in the classroom (i.e., moving, scanning, interacting).<button type="button" id="active-supervision" class="more-info">?</button></p>
 			<label for="item-one1"><input class="radio" id="item-one1" type="radio" name="item-one" value="1"><span class="radio-label">1</span></label>
 			<label for="item-one2"><input class="radio" id="item-one2" type="radio" name="item-one" value="2"><span class="radio-label">2</span></label>
@@ -80,7 +80,7 @@
 			<label for="item-one4"><input class="radio" id="item-one4" type="radio" name="item-one" value="4"><span class="radio-label">4</span></label>
 		</div>
 
-		<div>
+		<div class="question">
 			<p>2. The educator effectively provided most/all students with <b>opportunities to respond</b> and participate during instruction.<button type="button" id="opportunities" class="more-info">?</button></p>
 			<label for="item-two1"><input class="radio" id="item-two1" type="radio" name="item-two" value="1"><span class="radio-label">1</span></label>
 			<label for="item-two2"><input class="radio" id="item-two2" type="radio" name="item-two" value="2"><span class="radio-label">2</span></label>
@@ -88,7 +88,7 @@
 			<label for="item-two4"><input class="radio" id="item-two4" type="radio" name="item-two" value="4"><span class="radio-label">4</span></label>
 		</div>
 
-		<div>
+		<div class="question">
 			<p>3. The educator effectively provided <b>specific praise</b> to acknowledge appropriate student academic and social behavior.<button type="button" id="praise" class="more-info">?</button></p>
 			<label for="item-three1"><input class="radio" id="item-three1" type="radio" name="item-three" value="1"><span class="radio-label">1</span></label>
 			<label for="item-three2"><input class="radio" id="item-three2" type="radio" name="item-three" value="2"><span class="radio-label">2</span></label>
@@ -96,17 +96,33 @@
 			<label for="item-three4"><input class="radio" id="item-three4" type="radio" name="item-three" value="4"><span class="radio-label">4</span></label>
 		</div>
 
-		<div>
+		<div class="question">
 			<p>4. The educator provided <b>more frequent acknowledgement</b> for appropriate behaviors than inappropriate behaviors (+ to - ratio).</p>
-			<p><span class="agree">Strongly Disagree</span><label for="item-four1"><input class="radio" id="item-four1" type="radio" name="item-four" value="1"><span class="radio-label">1</span></label>
-			<label for="item-four2"><input class="radio" id="item-four2" type="radio" name="item-four" value="2"><span class="radio-label">2</span></label>
-			<label for="item-four3"><input class="radio" id="item-four3" type="radio" name="item-four" value="3"><span class="radio-label">3</span></label>
-			<label for="item-four4"><input class="radio" id="item-four4" type="radio" name="item-four" value="4"><span class="radio-label">4</span></label><span class="agree">Strongly Agree</span></p>
+			<p> 
+				<span class="agree">Disagree</span>
+				<label for="item-four1"><input class="radio" id="item-four1" type="radio" name="item-four" value="1"><span class="radio-label">1</span></label>
+				<label for="item-four2"><input class="radio" id="item-four2" type="radio" name="item-four" value="2"><span class="radio-label">2</span></label>
+				<label for="item-four3"><input class="radio" id="item-four3" type="radio" name="item-four" value="3"><span class="radio-label">3</span></label>
+				<label for="item-four4"><input class="radio" id="item-four4" type="radio" name="item-four" value="4"><span class="radio-label">4</span></label>
+				<span class="agree">Agree</span> 
+			</p> 
 		</div>
+
+		<div id="checklist">
+			<h2>CMOT Checklist</h2>
+			<h5>Periodically, check for evidence of the following features of effective classroom management</h5>
+			<p>1. The educator <b>posted schedule</b> for the day and/or class activity.
+				<input type="radio" class="radio-check" id="radio-check-yes-1">
+				<label for="radio-check-yes-1" class="radio-check-label">Yes</label>
+				<input type="radio" class="radio-check" id="radio-check-no-1">
+				<label for="radio-check-no-1" class="radio-check-label">No</label>
+			</p>
+		</div><!--checklist--> 
 
 
 
 		<button id="save-button" type="submit">Save »</button>
+
 
 	</form>
 
