@@ -86,7 +86,10 @@ let log = document.querySelector("#log");
 let button1 = document.querySelector("#active-supervision"); 
 let button2 = document.querySelector("#opportunities");
 let button3 = document.querySelector("#praise");
-
+let button4 = document.querySelector("#physical"); 
+let button5 = document.querySelector("#routines");
+let button6 = document.querySelector("#prompt-expectations");
+let button7 = document.querySelector("#strategies");
 
 
 form.addEventListener("submit",function(e){
@@ -110,18 +113,27 @@ form.addEventListener("submit",function(e){
   
 });
 
-  button1.addEventListener("touchstart", function(){
-    this.focus();
-  });
-
-  button2.addEventListener("touchstart", function(){
-    this.focus();
-  });
-
-  button3.addEventListener("touchstart", function(){
-    this.focus();
-  });
-
+button1.addEventListener("touchstart", function(){
+  this.focus();
+});
+button2.addEventListener("touchstart", function(){
+  this.focus();
+});
+button3.addEventListener("touchstart", function(){
+  this.focus();
+});
+button4.addEventListener("touchstart", function(){
+  this.focus();
+});
+button5.addEventListener("touchstart", function(){
+  this.focus();
+});
+button6.addEventListener("touchstart", function(){
+  this.focus();
+});
+button7.addEventListener("touchstart", function(){
+  this.focus();
+});
 
 
 

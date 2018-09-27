@@ -3,16 +3,14 @@
 }
 
 h3{
-    font-family: sans-serif;
     font-weight:400;
 }
-
+ /*---------global---------*/
 .form-container{
     text-align:center;
     margin:0 auto;
     max-width: 700px;
 }
-
 #step-form button{
     background-color: #669abf;
     color: #ffffff;
@@ -21,35 +19,20 @@ h3{
     border-radius: 10px;
     padding: 15px 25px;
     cursor: pointer;
-    cursor: pointer;
 }
-
 #step-form input{
     font-size: 18px;
-    /*padding: 15px;*/
     border-radius: 50px;
-    border: 0;
-    box-shadow: inset 0 0 6px 0px #797878;
+    border: 1.5px solid #797878;
 }
-
 #step-form p{
     font-size: 22px;
     margin: 0px auto;
 }
 
-/*#step-form div{
-    margin-bottom: 60px;
-}*/
-.question{
-    margin-bottom:60px;
-}
 
-/*#step-form input:focus{
-    border-radius:10px;
-    box-shadow: inset 0 0 6px 0px #3460c3;
-    outline:none;
-}*/
 
+/*--------------display info---------*/
 .notification{
     position: relative;
     padding:10px;
@@ -68,7 +51,17 @@ h3{
 .hide{
     display:none;
 }
+#log{
+    width: 40%;
+    margin: 30px auto;
+    text-align: center;
+    background-color: #eaeaea;
+    padding: 20px;
+    border: 1px solid #333;
+}
 
+
+/*--------old display animation------*/
 @-webkit-keyframes showAnimation{
     0%{opacity: 0;}
     20%{opacity: 1;}
@@ -91,6 +84,11 @@ h3{
     opacity:0;
 }
 
+/*---------------main input styling-------------*/
+.question{
+    margin-bottom:60px;
+    line-height:1.9;
+}
 .radio{
     height: 65px;
     width: 65px;
@@ -100,13 +98,11 @@ h3{
     box-sizing: border-box;
     margin:10px 15px;
 }
-
 .radio:checked{
     border: 32.5px solid #aac6f1!important;
     box-shadow: none!important;
     transition: border-width .3s ease
 }
-
 label .radio-label{
     font-size: 28px;
     position: relative;
@@ -115,13 +111,19 @@ label .radio-label{
     color: #989898;
     z-index: -1;
 }
+.agree{
+    position: relative;
+    bottom: 30px;
+    font-size: 18px;
+}
 
+
+
+/*-----------------more info dropdowns----------*/
 .more-info{
     padding: 8px 16px!important;
     margin:5px;
-
 }
-
 .more-info:after{
     position: absolute;
     background-color: #eee;
@@ -166,26 +168,14 @@ label .radio-label{
     content: "Additional consequence strategies may include classroom systems to acknowledge appropriate behavior or consequences to respond to inappropriate behavior; effective implementation is consistent, systematic, and accompanied by behavior-specific feedback.";
 }
 
-#log{
-    width: 40%;
-    margin: 30px auto;
-    text-align: center;
-    background-color: #eaeaea;
-    padding: 20px;
-    border: 1px solid #333;
-}
 
-.agree{
-    position: relative;
-    bottom: 30px;
-    font-size: 18px;
-}
 
-.text-input{
-    padding: 15px 30px;
-    font-size: 20px;
-}
 
+/*----------------the top part---------*/
+#top-part{
+    width: 100%;
+    margin: 0 auto;
+}
 .stack{
     display: flex;
     flex-direction: column;
@@ -193,28 +183,29 @@ label .radio-label{
     max-width: 300px;
     margin: 0 auto;
 }
-
-#time{
-    width: 15%;
-}
-
 .row{
     display: flex;
     flex-direction: row;
 }
-
-#top-part{
-    width: 100%;
-    margin: 0 auto;
+#top-part div{
+    padding-bottom:20px;
 }
-.question p{
-    line-height:1.9;
+.text-input{
+    padding: 15px 30px;
+    font-size: 20px;
+}
+#time-start{
+    height:21px;
+}
+#time{
+    width: 15%;
 }
 
+
+/*----------------bottom part-------------*/
 #checklist{
-    margin-top: 150px;
+    margin-top: 80px;
 }
-
 .checklist-item{
     display:flex;
     justify-content:space-between;
