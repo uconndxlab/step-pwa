@@ -37,8 +37,11 @@ h3{
     margin: 0px auto;
 }
 
-#step-form div{
+/*#step-form div{
     margin-bottom: 60px;
+}*/
+.question{
+    margin-bottom:60px;
 }
 
 /*#step-form input:focus{
@@ -150,6 +153,18 @@ label .radio-label{
 #praise.more-info:after{
     content: "Effective specific praise names the behavior and is contingent, genuine, and contextually/culturally appropriate.";
 }
+#physical.more-info:after{
+    content: "Physical arrangement (seating assignments, furniture arrangement, etc.) is designed to maximize structure and minimize distraction.";
+}
+#routines.more-info:after{
+    content: "Students demonstrate fluency with routines, educator provides lesson plans, and/or educator references previously taught routines.";
+}
+#prompt-expectations.more-info:after{
+    content: "Students demonstrate fluency with expectations, educator provides lesson plans, and/or educator references previously taught expectations. Effective prompts are delivered before a behavior is expected and make it more likely for students to engage in appropriate behavior for the given activity/environment.";
+}
+#strategies.more-info:after{
+    content: "Additional consequence strategies may include classroom systems to acknowledge appropriate behavior or consequences to respond to inappropriate behavior; effective implementation is consistent, systematic, and accompanied by behavior-specific feedback.";
+}
 
 #log{
     width: 40%;
@@ -200,6 +215,28 @@ label .radio-label{
     margin-top: 150px;
 }
 
+.checklist-item{
+    display:flex;
+    justify-content:space-between;
+    padding-bottom:20px;
+}
+.checklist-text{
+    width:75%;
+    text-align:left;
+    line-height:30px;
+    display:flex;
+    justify-content:space-between;
+}
+.yesno{
+    width:25%;
+}
+.checklist-text-p{
+    width:90%;
+}
+.checklist-info{
+    width:50px;
+    height:40px;
+}
 
 /*----------------Radio Colors--------------*/
 
