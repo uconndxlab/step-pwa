@@ -21,13 +21,14 @@ h3{
     cursor: pointer;
 }
 #step-form input{
-    font-size: 18px;
     border-radius: 50px;
     border: 1.5px solid #797878;
 }
 #step-form p{
-    font-size: 22px;
     margin: 0px auto;
+}
+p{
+    font-size:20px;
 }
 
 
@@ -43,11 +44,9 @@ h3{
     top:30px;
     text-transform: capitalize;
 }
-
 .save{
     background-color: #52c752;
 }
-
 .hide{
     display:none;
 }
@@ -87,7 +86,13 @@ h3{
 /*---------------main input styling-------------*/
 .question{
     margin-bottom:60px;
-    line-height:1.9;
+    line-height:1.5;
+}
+.question-text{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    text-align:left;
 }
 .radio{
     height: 65px;
@@ -210,6 +215,7 @@ label .radio-label{
     display:flex;
     justify-content:space-between;
     padding-bottom:20px;
+    align-items:center;
 }
 .checklist-text{
     width:75%;
@@ -217,9 +223,14 @@ label .radio-label{
     line-height:30px;
     display:flex;
     justify-content:space-between;
+    align-items:center;
 }
 .yesno{
     width:25%;
+}
+.yesno label{
+    position:relative;
+    bottom:8px;
 }
 .checklist-text-p{
     width:90%;
@@ -227,6 +238,16 @@ label .radio-label{
 .checklist-info{
     width:50px;
     height:40px;
+}
+.radio-check{
+    height:30px;
+    width:30px;
+    margin:0 5px;
+}
+.radio-check:checked{
+    border: 15px solid #aac6f1!important;
+    box-shadow: none!important;
+    transition: border-width .3s ease
 }
 
 /*----------------Radio Colors--------------*/
