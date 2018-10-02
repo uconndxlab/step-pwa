@@ -142,6 +142,7 @@ label .radio-label{
     line-height: 1.4;
     text-align: left;
     display:none;
+    z-index: 1;
 }
 
 .more-info:focus:after{
@@ -249,6 +250,8 @@ label .radio-label{
     box-shadow: none!important;
     transition: border-width .3s ease
 }
+
+
 
 /*----------------Radio Colors--------------*/
 
